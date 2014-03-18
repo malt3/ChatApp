@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ChatApp</string>
+    <string name="title_conversation_detail">Conversation Detail</string>
+    <string name="action_settings">Settings</string>
+    <string name="nc_email">E-Mail</string>
+    <string name="nc_nickname">Nickname (optional)</string>
+    <string name="nc_description">Just enter the E-Mail Adress of the Person you want to chat with. You will get a Confirmation if the Server knows that Adress</string>
+
+    <dimen name="default_margin">5dp</dimen>
+
+    <string-array name="tabs">
+        <item>Contact List</item>
+        <item>Manual</item>
+    </string-array>
+
+</resources>

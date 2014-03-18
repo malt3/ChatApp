@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/speech_bubble_orange"
+    android:layout_alignParentStart="true">
+    <TextView
+        android:id="@+id/message_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#cdd8e0"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:text="Lorem Ipsum"
+        android:textColor="#ffffff"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18:47"
+        android:layout_below="@id/message_text"
+        android:layout_alignEnd="@+id/message_text" />
+
+
+</RelativeLayout>
+</RelativeLayout>
